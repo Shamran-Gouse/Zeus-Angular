@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private repo: Repository) {}
+  constructor(private repo: Repository) {
+  }
 
   get product(): Product {
     return this.repo.product;

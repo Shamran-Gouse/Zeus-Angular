@@ -1,10 +1,10 @@
 export class Product {
   constructor(
-    public Id?: number,
+    public id?: number,
     public name?: string,
     public description?: string,
-    public Quantity?: number,
-    public ReOrder?: number,
+    public quantity?: number,
+    public reOrder?: number,
     public price?: number,
-    public image?: string) { }
+    public imageUrl?: string) { }
 }
